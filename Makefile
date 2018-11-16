@@ -89,4 +89,4 @@ Package/shadowsocksr-libev-mbedtls/install=$(Package/shadowsocksr-libev/install)
 Package/shadowsocksr-libev-server-mbedtls/install=$(Package/shadowsocksr-libev-server/install)
 
 $(eval $(call BuildPackage,shadowsocksr-libev))
-$(eval $(call BuildPackage,shadowsocksr-libev-mbedtls))
+#$(eval $(call BuildPackage,shadowsocksr-libev-mbedtls))
